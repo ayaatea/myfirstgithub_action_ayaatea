@@ -1,1 +1,25 @@
+on:
+  push:
+    branches:
+      -master
+
+
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+
+    steps:
+      -name: 'testing github action'
+        run: pwd
+      -name: 'testing print'
+        run: echo aya
+              
+
+      
+
+
+
 
